@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tothszabi/argonone/fan"
-	"github.com/tothszabi/argonone/log"
-	"github.com/tothszabi/argonone/temperature"
+	"github.com/tothszabi/argonone/internal/fan"
+	"github.com/tothszabi/argonone/internal/log"
+	"github.com/tothszabi/argonone/internal/temperature"
 )
 
 const sleepDuration = 2 * time.Second
